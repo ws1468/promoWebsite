@@ -38,11 +38,16 @@ h1{
   border-bottom-style: solid;
   border-color: #ccc;
   border-width: 1px;
+  margin: 5px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
 }
 
 .nav li {
   display: inline-block;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 2%;
   padding-right: 2%;
 }
@@ -50,7 +55,7 @@ h1{
 .gallery {
   margin: 3%;
   border: 1px solid #ccc;
-  float: left;
+  float: none;
   width: 180px;
   height: 400px;
   padding: 2%;
