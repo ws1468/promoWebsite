@@ -41,7 +41,7 @@ h1{
   margin: 5px;
   background-color: #fff;
   position: sticky;
-  top: 0;
+  top: -1px;
 }
 
 .nav li {
@@ -56,8 +56,8 @@ h1{
   margin: 3%;
   border: 1px solid #ccc;
   float: none;
-  width: 180px;
-  height: 400px;
+  width: 200px;
+  height: 350px;
   padding: 2%;
 }
 
@@ -70,6 +70,12 @@ h1{
   height: auto;
 }
 
-.desc {
+/*.desc {
   padding: 15px;
+}*/
+
+.pictures img {
+  width: 40%;
+  height: 40%;
+  margin-left: 3%;
 }

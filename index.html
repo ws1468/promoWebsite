@@ -18,7 +18,7 @@
       <li>Milky</li> /
       <li>Tan</li>
     </ul>
-
+<!--
     <div class="gallery">
         <img src="bokibutton.jpeg">
       </a>
@@ -53,10 +53,107 @@
       <br><b>Name</b> : Tan [탄이]
       <br><b>Type</b> : Ginger Domestic Shorthair
       <br><b>Sex</b> : male
-      <br><b>Birth</b> : Late April, 2020 (estimate)
+      <br><b>Birth</b> : Late April, 2020
       </p>
     </div>
   </div>
+-->
+
+<!-- BOKIIIIIIIIIIIIIII -->
+
+  <!--image gallery -->
+  <div class="padding">
+    <div class="container">
+        <a href="javascript:void(0)" onclick="openImg('Boki');">
+          <div class="gallery">
+              <img src="bokibutton.jpeg">
+            </a>
+              <div class="desc">
+                <p>
+                <br><b>Name</b> : Gwang Bok [광복이]
+                <br><b>Type</b> : Norwegian Forest
+                <br><b>Sex</b> : male
+                <br><b>Birth</b> : August 15, 2018
+                </p>
+              </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- tab image gallery -->
+  <div id="Boki" class="pictures" style="display:none">
+    <img src="cutieboki.png">
+    <span onclick="this.parentElement.style.display='none'">&times;
+    </span>
+  </div>
+
+  <!-- MILKYYYYYYYYYYYYYYYYYY -->
+  <div class="padding">
+    <div class="container">
+        <a href="javascript:void(0)" onclick="openImg('Milky');">
+          <div class="gallery">
+              <img src="milkybutton.jpeg">
+            </a>
+            <div class="desc">
+              <p>
+              <br><b>Name</b> : Milky [밀키]
+              <br><b>Type</b> : Samoyed
+              <br><b>Sex</b> : male
+              <br><b>Birth</b> : December 3, 2018
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="Milky" class="pictures" style="display:none">
+    <img src="cutemilky.jpeg">
+    <span onclick="this.parentElement.style.display='none'">&times;
+    </span>
+  </div>
+
+  <!-- TAAAAAAAAAAAAAAAAAAAAAN -->
+  <div class="padding">
+    <div class="container">
+        <a href="javascript:void(0)" onclick="openImg('Tan');">
+          <div class="gallery">
+              <img src="tanbutton.jpeg">
+            </a>
+            <div class="desc">
+              <p>
+              <br><b>Name</b> : Tan [탄이]
+              <br><b>Type</b> : Ginger Domestic Shorthair
+              <br><b>Sex</b> : male
+              <br><b>Birth</b> : Late April, 2020
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="Tan" class="pictures" style="display:none">
+    <img src="smoltan.jpeg">
+    <span onclick="this.parentElement.style.display='none'">&times;
+    </span>
+  </div>
+
+  <!--javascript for image when clicking -->
+  <script>
+  function openImg(imgName) {
+    var i, x;
+    x = document.getElementsByClassName("picture");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    document.getElementById(imgName).style.display = "block";
+  }
+  </script>
 
   </body>
 </html>
