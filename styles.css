@@ -1,0 +1,70 @@
+/*possible color: cce8f8 || CCE8F8*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body, html {
+  font-family: 'Nunito', sans-serif;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  float: left;
+  border-style: solid;
+  border-color: #ffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header {
+  background-color: #CCE8F8;
+  text-align: center;
+  padding: 1%;
+
+  border-bottom-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+}
+
+h1{
+  font-size: 300%;
+  color: #ffffff;
+}
+
+.nav {
+  text-align: center;
+  list-style-type: none;
+  border-bottom-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+}
+
+.nav li {
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.gallery {
+  margin: 3%;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  height: 400px;
+  padding: 2%;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+}
